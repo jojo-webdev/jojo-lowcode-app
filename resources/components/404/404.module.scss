@@ -1,0 +1,30 @@
+._page_status {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    z-index: 9999;
+
+    $font-color: #999;
+    $font-color-alt: #4493ce;
+
+    h5, span {
+        font-family: "Poppins";
+    }
+
+    h5 {
+        font-weight: 500;
+        font-size: 1.75rem;
+        color: $font-color;
+
+        span {
+            color: $font-color-alt;
+            font-size: 1.75rem;
+        }
+    }
+}
