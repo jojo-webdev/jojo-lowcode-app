@@ -1,6 +1,6 @@
 {
-  "name": "create-jojo-lowcode-app",
-  "version": "1.0.0",
+  "name": "@jojowebdev/create-lowcode-app",
+  "version": "1.0.3",
   "bin": "./bin/cli.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
